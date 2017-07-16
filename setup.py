@@ -1,7 +1,9 @@
 from setuptools import find_packages, setup
 
+project_name = 'youtube-api-samples'
 setup(
-    name='youtube-api-samples',
+    name=project_name,
     url='https://github.com/blokfyuh/api-samples',
-    packages=['python']
+    packages=['python'],
+    package_dir={project_name: 'python'}
 )
