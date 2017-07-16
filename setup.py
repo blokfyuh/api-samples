@@ -1,6 +1,7 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name='youtube-api-samples',
-    url='https://github.com/blokfyuh/api-samples'
+    url='https://github.com/blokfyuh/api-samples',
+    packages=find_packages()
 )
