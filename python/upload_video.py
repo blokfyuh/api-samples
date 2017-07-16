@@ -177,5 +177,5 @@ if __name__ == '__main__':
   youtube = get_authenticated_service(args)
   try:
     initialize_upload(youtube, args)
-  except HttpError, e:
+  except HttpError as e:
     print "An HTTP error %d occurred:\n%s" % (e.resp.status, e.content)
