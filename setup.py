@@ -5,5 +5,5 @@ setup(
     name=project_name,
     url='https://github.com/blokfyuh/api-samples',
     packages=['python'],
-    package_dir={project_name: 'python'}
+    package_dir={'youtube-api-samples': 'python'}
 )
